@@ -1,0 +1,290 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.WTWP_container, .WTWP_container h1, .WTWP_container h2, .WTWP_container h3, .WTWP_container h4 {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+	text-transform: none !important;
+	letter-spacing: normal !important;
+}
+.WTWP_container .media-body {
+	color: #676867;
+}
+.WTWP_container .media-heading {
+	font-size: 14px;
+	line-height: 14px;
+	margin-bottom: 0;
+	padding-bottom: 5px;
+}
+.WTWP_container .media-info {
+	font-size: 12px;
+	line-height: 12px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.WTWP_container .media-info .fa {
+	margin-right: 5px;
+}
+.WTWP_header .media-left, .WTWP_header .media-right {
+	padding: 0;
+}
+.WTWP_header .media-body {
+	padding: 10px;
+	position: relative;
+}
+.WTWP_header .media-body .WTWP_buttons {
+	position: absolute;
+	bottom: 0;
+  height: 40px;
+  background-color: #e1f4e1;
+  text-align: center;
+	border-top: 1px solid #acddac;
+	width: 100%;
+	margin: 0 -10px;
+}
+.WTWP_header .media-left .media-object {
+	max-width: 100px;
+	border-radius: 5px 0 0 5px;
+	margin-bottom: 0;
+}
+.WTWP_header .media-right .media-object {
+	max-width: 100px;
+	border-radius: 0 5px 5px 0;
+	margin-bottom: 0
+}
+.WTWP_header .media-body {
+	background-color: #ECF6EC;
+	border-top: 1px solid #acddac;
+	border-bottom: 1px solid #acddac;
+}
+.WTWP_header .media-body .WTWP_navigation {
+	height: 40px;
+	float: left;
+	display: inline-block;
+	list-style: none;
+	padding: 0;
+}
+.WTWP_header .media-body .WTWP_navigation .WTWP_network {
+	display: table;
+	float: left;
+}
+.WTWP_header .media-body .WTWP_navigation .WTWP_network li a {
+	text-decoration: none !important;
+}
+.WTWP_header .media-body .WTWP_navigation li {
+	float: left;
+	border-right: 1px solid #acddac;
+}
+.WTWP_header .media-body .WTWP_navigation li:hover,
+.WTWP_header .media-body .WTWP_navigation li:visited,
+.WTWP_header .media-body .WTWP_navigation li:focus  {
+	background-color: #c3efc3;
+}
+.WTWP_header .media-body .WTWP_navigation li a {
+	display: block;
+	line-height: 39px;
+	height: 39px;
+  padding: 0 10px;
+	font-size: 11px;
+	font-weight: 300;
+}
+.WTWP_header .media-body .WTWP_navigation li a:hover,
+.WTWP_header .media-body .WTWP_navigation li a:focus,
+.WTWP_header .media-body .WTWP_navigation li a:visited {
+	color: #469b48;
+}
+.WTWP_header .media-body .WTWP_navigation li a .fa {
+	margin-right: 5px;
+}
+.WTWP_header .media-body .WTWP_navigation li a .WTWP_stat_heading {
+	color: #818481;
+	font-size: 10px;
+	line-height: 20px;
+}
+.WTWP_header .media-body .WTWP_navigation li a .WTWP_stat_data {
+	font-size: 15px;
+	line-height: 20px;
+}
+.WTWP_header .media-body .WTWP_navigation li a .WTWP_stat_data span {
+  position: relative;
+  top: -3px;
+	font-weight: bold;
+}
+.WTWP_header .media-body .WTWP_navigation li a .fa {
+	margin-right: 5px;
+}
+/* Packages embed header */
+.WTWP_container .WTWP_package_embed_header {
+	display: block;
+	border-top: 1px solid #cbd1c9;
+	text-align: right;
+	margin: -20px 0 15px 0;
+}
+.WTWP_container .WTWP_package_embed_header p {
+	font-size: 12px;
+	line-height: 15px;
+	margin: 0;
+	display: inline-block;
+	vertical-align: bottom;
+}
+.WTWP_container .WTWP_package_embed_header p a:hover {
+	text-decoration: underline;
+}
+.WTWP_container .WTWP_package_embed_header img {
+	margin: 5px 5px 0 0;
+}
+/* Package list */
+.WTWP_package_list {
+	padding: 0 !important;
+	margin: 15px -15px !important;
+}
+.WTWP_no_rating .fa {
+	color: #f5f7ff;
+}
+.WTWP_rated, .WTWP_package_list .WTWP_package .WTWP_package_container .WTWP_package_rating {
+  color: #f5f7ff;
+}
+.WTWP_rated .WTWP_star_buttons, .WTWP_package_list .WTWP_package .WTWP_package_container .WTWP_package_rating .WTWP_star_buttons {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: left;
+  display: inline-block;
+}
+.WTWP_rated .WTWP_star_buttons div, .WTWP_package_list .WTWP_package .WTWP_package_container .WTWP_package_rating .WTWP_star_buttons div {
+  display: inline-block;
+}
+.WTWP_rated .WTWP_star_buttons div:before, .WTWP_package_list .WTWP_package .WTWP_package_container .WTWP_package_rating .WTWP_star_buttons div:before {
+  padding-right: 5px;
+  color: #e3d959;
+  font-family: FontAwesome;
+}
+.WTWP_rated .WTWP_star_buttons div.star:before, .WTWP_package_list .WTWP_package .WTWP_package_container .WTWP_package_rating .WTWP_star_buttons div.star:before {
+  content: "\f005";
+}
+.WTWP_rated .WTWP_star_buttons div.star-o:before, .WTWP_package_list .WTWP_package .WTWP_package_container .WTWP_package_rating .WTWP_star_buttons div.star-o:before {
+  content: "\f006";
+}
+.WTWP_rated .WTWP_star_buttons div.star-half-o:before, .WTWP_package_list .WTWP_package .WTWP_package_container .WTWP_package_rating .WTWP_star_buttons div.star-half-o:before {
+  content: "\f123";
+}
+.WTWP_rated .WTWP_no_rating div:before, .WTWP_package_list .WTWP_package .WTWP_package_container .WTWP_package_rating .WTWP_no_rating div:before {
+  color: #A6A7A6;
+}
+
+.WTWP_package_list {
+  padding: 0;
+  margin-top: 15px;
+}
+.WTWP_package_list a, .WTWP_package_list a:hover, .WTWP_package_list a:focus, .WTWP_package_list a:visited {
+  text-decoration: none;
+}
+.WTWP_package_list .WTWP_package {
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.WTWP_package_list .WTWP_package .WTWP_package_container {
+  position: relative;
+  width: 100%;
+}
+.WTWP_package_list .WTWP_package .WTWP_package_container .WTWP_tagged_right .WTWP_reduced {
+  color: #d3f3d3;
+}
+.WTWP_package_list .WTWP_package .WTWP_package_container .WTWP_tagged_right .WTWP_reduced .fa {
+  color: #d3f3d3;
+}
+.WTWP_package_list .WTWP_package .WTWP_package_container .WTWP_tagged_right .WTWP_original {
+  margin-left: 10px;
+  text-decoration: line-through;
+  font-weight: normal;
+}
+.WTWP_package_list .WTWP_package .WTWP_package_container .WTWP_package_picture {
+  position: relative;
+  padding-bottom: 47%;
+  height: 0;
+  background-color: #818481;
+  border-radius: 5px;
+}
+.WTWP_package_list .WTWP_package .WTWP_package_container .WTWP_package_picture:hover {
+  cursor: pointer;
+}
+.WTWP_package_list .WTWP_package .WTWP_package_container .WTWP_package_picture img {
+  margin: 0;
+  width: 100%;
+  border-radius: 5px;
+  opacity: 1;
+}
+.WTWP_package_list .WTWP_package .WTWP_package_container .WTWP_rate {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -15px;
+  margin-left: -60px;
+}
+.WTWP_package_list .WTWP_package .WTWP_package_container .WTWP_package_info {
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 5px 10px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #f5f7ff;
+  font-size: 13px;
+	line-height: 16px;
+  text-shadow: rgba(0, 0, 0, 0.3) 0 -1px 0;
+  border-radius: 0 0 5px 5px;
+}
+.WTWP_package_list .WTWP_package .WTWP_package_container .WTWP_package_info div {
+  display: block;
+}
+.WTWP_package_list .WTWP_package .WTWP_package_container .WTWP_package_info .WTWP_package_owner_avatar img {
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin: 0px 8px 0px -5px;
+}
+.WTWP_package_list .WTWP_package .WTWP_package_container .WTWP_package_info .WTWP_package_title {
+  font-weight: 500;
+}
+.WTWP_package_list .WTWP_package .WTWP_package_container .WTWP_package_info .WTWP_package_details {
+  font-size: 10px;
+}
+.WTWP_package_list .WTWP_package .WTWP_package_container .WTWP_package_info .WTWP_package_details .fa {
+  color: #f5f7ff;
+  margin: 0 3px 0 5px;
+}
+.WTWP_package_list .WTWP_package:hover .WTWP_package_picture img {
+  opacity: 0.7;
+}
+.WTWP_package_list .WTWP_edit_button {
+  bottom: 5px;
+  right: 5px;
+  position: absolute;
+}
+
+.WTWP_tagged_left, .WTWP_tagged_right {
+	position: absolute;
+	padding: 3px 10px;
+	top: 10px;
+	background-color: rgba(0,0,0, 0.5);
+	color: #f5f7ff;
+	font-size: 12px;
+	font-weight: 500;
+	text-shadow: rgba(0,0,0, 0.3) 0 -1px 0;
+}
+.WTWP_tagged_left .fa, .WTWP_tagged_right .fa {
+	color: #f5f7ff;
+	text-shadow: rgba(0,0,0, 0.3) 0 -1px 0;
+}
+.WTWP_tagged_left {
+	left: 0;
+	border-radius: 0 2px 2px 0;
+}
+.WTWP_tagged_left .fa {
+	margin-right: 5px;
+}
+.WTWP_tagged_right {
+	right: 0;
+	border-radius: 2px 0 0 2px;
+}

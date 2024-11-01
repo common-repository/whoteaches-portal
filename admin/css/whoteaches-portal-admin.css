@@ -1,0 +1,85 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.WTWP_admin_main {
+	background-color: #06222f;
+	padding: 0 20px;
+	border-radius: 5px;
+	color: #cfedfc;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+}
+/* Global */
+.WTWP_admin_main h1 {
+	color: #cfedfc;
+	font-size: 30px;
+	font-weight: 700;
+	text-shadow: 0 0 10px rgba(255,255,255,0.4);
+	margin: 0 0 5px 0;
+}
+.WTWP_admin_main h2 {
+	font-size: 20px;
+	font-weight: 500;
+	margin: 0 0 20px 0;
+	color: #9fdcf8;
+}
+.WTWP_admin_bottom h4 {
+	color: #9fdcf8;
+	font-size: 25px;
+	font-weight: 500;
+	margin: 35px 0 20px 0;
+}
+/* Grid */
+.WTWP_top_row {
+	display: table;
+}
+.WTWP_wordpress_images, .WTWP_plugin_text, .WTWP_social {
+	display: table-cell;
+	vertical-align: top;
+}
+.WTWP_wordpress_images {
+	width: 25%;
+}
+.WTWP_plugin_text {
+	width: 60%;
+}
+.WTWP_social {
+	width: 15%;
+}
+/* Top elements */
+.WTWP_admin_top {
+	padding: 25px 0;
+}
+.WTWP_logo {
+	text-align: center;
+	padding: 25px;
+}
+.WTWP_circle {
+	font-size: 50px;
+	border: 3px solid #cfedfc;
+	border-radius: 100%;
+	height: 125px;
+  width: 125px;
+  line-height: 115px;
+	background-color: #9bbccb;
+	box-shadow: 0 0 35px #cfedfc;
+	display: inline-block;
+}
+.WTWP_circle img {
+	width: 60px;
+	top: 20px;
+	position: relative;
+}
+.WTWP_admin_main .WTWP_admin_top .WTWP_social {
+	text-align: right;
+}
+/* Bottom elements */
+.WTWP_admin_bottom {
+	border-top: 1px solid #9fdcf8;
+	padding: 0 20px 20px 20px;
+}
+.WTWP_admin_bottom img {
+	display: block;
+	width: 600px;
+	margin: 10px 0;
+}
